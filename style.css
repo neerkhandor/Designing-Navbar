@@ -2,3 +2,57 @@ html, body {
   height: 100%;
   width: 100%;
 }
+ *{
+      margin:0px;
+      padding:0px;
+      box-sizing: border-box;
+    }
+    body{
+      font-family: 'Ubuntu', sans-serif;
+    }
+    nav{
+/*       background-color: black; */
+/*       margin:auto;
+      width:600px; */
+      margin:5px;
+    }
+    .navbar{
+      margin: auto;
+    }
+    nav ul li{
+      list-style: none;
+    }
+    nav ul li a{
+      text-decoration: none;
+      color:white;
+      padding:20px;
+    }
+  
+    ul li{
+      display:inline;
+      padding:10px;
+      margin:10px;
+      
+    }
+    ul{
+      background-color: #cd7d7d;
+      margin:0px 5px 5px 5px;
+      padding:11px;
+/*       border:2px solid red; */
+      border-radius:20px;
+    }
+    .search{
+      display: inline;
+      padding:6px;
+      width:80px;
+/*       margin-left:400px; */
+      cursor:pointer;
+      color: green;
+      
+    }
+    #text{
+    height: 31px;
+    width: 150px;
+    padding: 10px;
+    margin-left: 400px;
+    }
